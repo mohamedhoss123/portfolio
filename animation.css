@@ -73,6 +73,7 @@ h1::after {
 h1::before{
     background: #fff;
     animation: typewartier 2s ease forwards;
+    animation-delay: 1s;
 }
 
 ul{
@@ -92,6 +93,7 @@ ul::after {
 ul::before{
     background: #fff;
     animation: typewartier 2s ease forwards;
+    animation-delay: 1.5s;
 }
 /* end nav bar animation  */
 
@@ -122,7 +124,17 @@ ul::before{
     bottom: 0;
     left: 0;
     height: 336px;
+    width: 350px;
     top: 3px;
+}
+.who-i-am>h3::before {
+    background: #fff;
+    animation: typewartier 1.5s ease forwards;
+    animation-delay: 2s;
+}
+.who-i-am>h3::after{
+    animation: removeAFter 1.5s ease forwards;
+    animation-delay: 2s;
 }
 p::before{
     background: #fff;
@@ -138,23 +150,47 @@ p::before{
     top: -9px;
     bottom: 0;
     left: 0;
-    height: 336px;
+    height: 201px;
     width: 500px;
     background: #fff;
     animation: typewartier 1.5s ease forwards;
-    animation-delay: 0.5s
+    /* animation-delay: 0.5s */
 }
-
-h2::before,
-h3::before {
+.introduction-myself >div>p{
+    position: relative;
+}
+.introduction-myself >div:nth-child(1)>p::before,
+.introduction-myself >div:nth-child(1)>p::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 36px;
+    width: 500px;
+    background: #fff;
+    animation: typewartier 1s ease forwards;
+    animation-delay: 1.5s
+}
+.introduction-myself >div:nth-child(2)>p::before,
+.introduction-myself >div:nth-child(2)>p::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 203px;
+    width: 353px;
     background: #fff;
     animation: typewartier 1.5s ease forwards;
-    animation-delay: 0.5s;
+    animation-delay: 2.5s
 }
+
 p::after,
 h1::after,
-h2::after,
-h3::after {
+h2::after{
     animation: removeAFter 1.5s ease forwards;
 }
 #rect{
@@ -162,12 +198,8 @@ h3::after {
     stroke-dashoffset: 1823.3135986328125;
     animation: sing .7s ease;
     animation-fill-mode: forwards;
-    animation-delay: 0.8s;
+    animation-delay: 1.5s;
 } 
-
-
-/* end who i am animation */
-
 
 
 
