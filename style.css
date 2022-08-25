@@ -2,6 +2,11 @@
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
+body{
+    width: 97%;
+    height: 96vh;
+    font-family: 'Inter', sans-serif;
+}
 
 p {
     font-style: normal;
@@ -46,13 +51,18 @@ h1 {
     justify-content: space-around;
 
 }
+
+.introduction-myself >div:nth-child(1){     
+    margin-left: 64px;
+}
 .who-i-am{  
     margin-top: 111px;
-}
+}svg,
 img {
     position: absolute;
 }
 .who-i-am-svg{
+    z-index: -1;
     width: 387px;
     transform: translate(-18px, 0px);
 }
@@ -64,6 +74,8 @@ h2 {
 }
 
 h3 {
+    margin-top: 58px;
+    transform: translate(0, 6px);
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -72,6 +84,33 @@ h3 {
 
     text-align: justify;
 }
-
+@media (min-width:1400px){
+    .who-i-am{
+        transform: translate(-41px, 0);
+    }
+}
 
 /* end who i am section */
+
+
+/* start what is my skills */
+.what-is-my-skills{
+    margin-top: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.what-is-my-skills>img{
+    width: 1096px;
+    z-index: -1;
+}
+.what-is-my-skills>h2{
+    transform: translate(-151px, 9px);
+    width: 597px;
+}
+.what-is-my-skills>p{
+    transform: translate(-6px, 7px);
+    width: 900px;
+}
+
+/* end what  is my skills */
