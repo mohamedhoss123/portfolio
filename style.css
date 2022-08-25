@@ -1,0 +1,77 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #4B4B4B;
+}
+
+/* styling header  */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 22rem;
+}
+
+li:nth-child(1) {
+    font-weight: 700;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* end styling header */
+
+
+
+/* start who i am section */
+.introduction-myself{
+    display: flex;
+    justify-content: space-around;
+
+}
+.who-i-am{  
+    margin-top: 111px;
+}
+img {
+    position: absolute;
+}
+.who-i-am-svg{
+    width: 387px;
+    transform: translate(-18px, 0px);
+}
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: justify;
+}
+
+
+/* end who i am section */
