@@ -15,22 +15,32 @@
                 <rect id="rect" x="2" y="2" width="453" height="461" rx="2" stroke="black" stroke-width="4" />
             </svg>
 
-            <h3>Who am I?</h3>
-            <p>
-                I am Mohamed Hossam,<br>
-                a web developer from Egypt,<br>
-                my age is 16,<br>
-                <br>
-                the most technology <br>
-                i am great with is typescript<br>
-            </p>
+            <div>
+                <h3>Who am I?</h3>
+                <p>
+                    I am Mohamed Hossam,<br>
+                    a web developer from Egypt,<br>
+                    my age is 16,<br>
+                    <br>
+                    the most technology <br>
+                    i am great with is typescript<br>
+                </p>
+            </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+.Intreduce-myself>div:nth-child(1) {
+    margin-left: 16px;
+}
+
+.Intreduce-myself>div:nth-child(2) {
+    margin-top: 40px;
+}
+
 h2 {
-    font-size: 35px;
+    font-size: 2.5rem;
 }
 
 .Intreduce-myself {
@@ -40,6 +50,14 @@ h2 {
 
 }
 
+.who-i-am > div:nth-child(2) {
+    margin-left: 23px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
 .who-i-am-svg {
     position: absolute;
     width: 400px;
@@ -47,9 +65,14 @@ h2 {
 }
 
 @media(min-width:820px) {
-    h2 {
-        font-size: 50px;
+    .Intreduce-myself>div:nth-child(2) {
+        margin-top: 115px;
     }
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
     .Intreduce-myself {
         flex-direction: row;
     }
