@@ -2,10 +2,10 @@
 import { onMounted , ref } from "vue";
 import MySignature from "./components/signature/MySignature.vue";
 import Sections from "./components/Sections.vue"
-const isSignatureRunning = ref(false)
+const isSignatureRunning = ref(true)
 onMounted(()=>{
   setTimeout(()=>{
-    // isSignatureRunning.value = false
+    isSignatureRunning.value = false
   },3500)
 })
 </script>
