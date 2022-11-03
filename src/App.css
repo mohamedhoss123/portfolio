@@ -1,0 +1,11 @@
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #4B4B4B;
+}
