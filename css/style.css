@@ -26,6 +26,8 @@ h1{
   font-size: 50px;
 }
 p{
+  margin: 0;
+  margin-bottom: 5px;
   transform: translate(0,-29px);
   font-size: 20px;
 }
@@ -46,7 +48,28 @@ section{
 
 /* handel who i am section */
 
-.who-i-am>div>p{
-  margin: 0;
-  margin-bottom: 5px;
+
+
+
+
+
+
+/* hendel my skills section */
+
+.my-skills>p:nth-child(4){
+  margin-bottom: 45px;
+}
+.my-skills>p:nth-child(5)>img{
+  width: 120px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+/* hendel contact me */
+.contact-me{
+  background-color: #BDBDBD;
+}
+.contact-me>.type-animation::before {
+  background: #BDBDBD;
 }
