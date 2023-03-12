@@ -1,0 +1,32 @@
+.delay1::before,
+.delay1::after{
+  animation-delay: 1s;
+}
+.delay1-5::before,
+.delay1-5::after{
+  animation-delay: 1.5s;
+}
+.delay1-8::before,
+.delay1-8::after{
+  animation-delay: 1.8s;
+}
+.delay2-1::before,
+.delay2-1::after{
+  animation-delay: 2.1s;
+}
+.delay2-4::before,
+.delay2-4::after{
+  animation-delay: 2.4s;
+}
+.delay2-7::before,
+.delay2-7::after{
+  animation-delay: 2.7s;
+}
+.delay3::before,
+.delay3::after{
+  animation-delay: 3s;
+}
+
+.display-hidden{
+    opacity: 0;
+}
