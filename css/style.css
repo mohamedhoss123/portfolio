@@ -8,6 +8,9 @@
   overflow-y: hidden;
   font-family: 'Inter', sans-serif;
 }
+body{
+  margin: 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -44,7 +47,10 @@ section{
   margin: 0;
 }
 
-
+a{
+  text-decoration: underline;
+  color: black;
+}
 
 /* handel who i am section */
 
@@ -78,8 +84,4 @@ section{
 }
 .contact-me>div {
   transform: translate(-81px, 0);
-}
-.contact-me>div>p>a{
-  text-decoration: underline;
-  color: black;
 }
