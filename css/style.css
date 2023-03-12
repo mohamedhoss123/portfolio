@@ -63,7 +63,7 @@ section{
   width: 120px;
   height: 100px;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 /* hendel contact me */
@@ -72,4 +72,10 @@ section{
 }
 .contact-me>.type-animation::before {
   background: #BDBDBD;
+}
+.contact-me>*>.type-animation::before {
+  background: #BDBDBD;
+}
+.contact-me>div {
+  transform: translate(-81px, 0);
 }
