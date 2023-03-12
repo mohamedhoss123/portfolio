@@ -37,12 +37,12 @@ section{
   align-items: center;
   scroll-snap-align: start;
 }
-
+/* handel hi section */
+.hi>div>h1:nth-child(1){
+  margin: 0;
+}
 
 
 
 /* handel who i am section */
 
-.who-i-am>p{
-  
-}
