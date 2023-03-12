@@ -8,11 +8,9 @@
 .type-animation::before {
     background: #fff;
     animation: typewartier 1.7s ease forwards;
-    /* animation-delay: 2s; */
 }
 .type-animation::after{
     animation: removeAFter 1.7s ease forwards;
-    /* animation-delay: 2s; */
 }
 
 

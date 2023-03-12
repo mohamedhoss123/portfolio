@@ -46,3 +46,7 @@ section{
 
 /* handel who i am section */
 
+.who-i-am>div>p{
+  margin: 0;
+  margin-bottom: 5px;
+}

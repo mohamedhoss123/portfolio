@@ -1,6 +1,6 @@
-.delay0-5::before,
-.delay0-5::after{
-  animation-delay: 0.5s;
+.delay0-8::before,
+.delay0-8::after{
+  animation-delay: 0.8s;
 }
 .delay1::before,
 .delay1::after{
