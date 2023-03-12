@@ -79,3 +79,7 @@ section{
 .contact-me>div {
   transform: translate(-81px, 0);
 }
+.contact-me>div>p>a{
+  text-decoration: underline;
+  color: black;
+}
